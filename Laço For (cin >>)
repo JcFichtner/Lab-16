@@ -1,0 +1,11 @@
+Explique em uma frase o que o laço de repetição abaixo faz.
+
+int x;
+
+cout << "Digite um valor: ";
+
+for (cin >> x; x; cin >> x)
+     cout << "Digite outro valor: ";
+
+O laço ira ficar repetindo o cout e lendo o valor do usuario pelo cin
+até o usuario digitar o numero zero.
